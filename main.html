@@ -1,0 +1,191 @@
+<!-- 
+    E-BELAJAR
+    index.html > Halaman utama
+    Coded by Michael Ahmad Zofthi
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>E-Belajar</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <a href="#"><h2>E-BELAJAR</h2></a>
+        </header>
+
+        <div class="menu">
+            <div class="menu-links">
+                <a href="/main.html">
+                <li class="nav-link active">
+                    <ion-icon name="easel-outline" class="nav-logo active"></ion-icon>
+                    <span>
+                        <span>Papan Tulis</span>
+                    </span>
+                </li>
+                </a>
+                <a href="/absen.html">
+                <li class="nav-link">
+                    <ion-icon name="checkbox-outline" class="nav-logo"></ion-icon>
+                        <span>Absen</span>
+                </li>
+                </a>
+                <a href="/materi.html">
+                <li class="nav-link">
+                    <ion-icon name="book-outline" class="nav-logo"></ion-icon>
+                        <span>Materi</span>
+                </li>
+                </a>
+                <a href="/tugas.html">
+                <li class="nav-link">
+                    <ion-icon name="pencil-outline" class="nav-logo"></ion-icon>
+                        <span>Tugas</span>
+                </li>
+                </a>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Made with 😴 by Michael</p>
+        </footer>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h1>Papan Tulis</h1>
+            <div class="materiDb-container">
+                <h3>Materi Baru</h3>
+                <div class="materiBaruDb-box">
+                    <div class="ipa-box">
+                        <div class="gambar-box">
+                            <img src="/assets/img/ipa.svg" alt="atom" height="200">
+                        </div>
+                        <div class="materiTextDb-box">
+                            <h4>IPA</h4>
+                            <p>2 Materi</p>
+                        </div>
+                        <div class="materiDb-footer">
+                            <span class="guru">Oleh Guru</span>
+                            <a href="/pages/materi-ipa.html"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="math-box">
+                        <div class="gambar-box">
+                            <img src="/assets/img/math.svg" alt="atom" height="200">
+                        </div>
+                        <div class="materiTextdb-box">
+                            <h4>Matematika</h4>
+                            <p>1 Materi</p>
+                        </div>
+                        <div class="materiDb-footer">
+                            <span class="guru">Oleh Guru</span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="dpdg-box">
+                        <div class="gambar-box">
+                            <img src="/assets/img/dpdg.svg" alt="atom" height="200">
+                        </div>
+                        <div class="materiTextDb-box">
+                            <h4>DPDG</h4>
+                            <p>1 Materi</p>
+                        </div>
+                        <div class="materiDb-footer">
+                            <span class="guru">Oleh Guru</span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tugasDb-container">
+                    <h3>Tugas Hari Ini</h3>
+                    <table class="tugasDb-tabel">
+                        <thead>
+                            <tr class="tabel-title">
+                                <th>Mata Pelajaran</th>
+                                <th>Tugas</th>
+                                <th>Tema</th>
+                                <th>BAB</th>
+                                <th>Batas Waktu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabel-list" id="table-1">
+                                <td class="mapel">
+                                    <ion-icon name="cube-outline" class="math-icon"></ion-icon>
+                                    <p>Matematika<br><span>1 Tugas</span></p>
+                                </td>
+                                <td>Latihan 3.5</td>
+                                <td>Statistika</td>
+                                <td>5</td>
+                                <td>2 Jam lagi</td>
+                            </tr>
+                            <tr class="tabel-list" id="table-2">
+                                <td class="mapel">
+                                    <ion-icon name="accessibility-outline" class="pjok-icon"></ion-icon>
+                                    <p>PJOK<br><span>2 Tugas</span></p>
+                                </td>
+                                <td>Latihan 2.3, Latihan 2.5</td>
+                                <td>Renang</td>
+                                <td>2</td>
+                                <td>Besok</td>
+                            </tr>
+                            <tr class="tabel-list" id="table-3">
+                                <td class="mapel">
+                                    <ion-icon name="logo-react" class="ipa-icon"></ion-icon>
+                                    <p>IPA<br><span>2 Tugas</span></p>
+                                </td>
+                                <td>Latihan 2.1, Lathian 2.2</td>
+                                <td>Cuaca</td>
+                                <td>7</td>
+                                <td>5 Jam lagi</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="siswa-box">
+                <h2>Siswa</h2>
+                <div class="siswa">
+                    <img src="/assets/img/avatar.png" alt="avatar" class="avatar" height="180px">
+                    <div class="siswa-text">
+                        <p>Michael Ahmad Zofthi</p>
+                        <span class="kelas">X RPL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tugasBelum-box">
+                <h2>Tugas Belum diserahkan</h2>
+                <ul class="tugasBelum-list">
+                    <li class="mapel">
+                        <ion-icon name="cube-outline" class="math-icon"></ion-icon>
+                        <p>Latihan 2<br><span>Relasi dan Fungsi</span></p>
+                        <ion-icon name="chevron-forward" class="next-icon"></ion-icon>
+                    </li>
+                    <li class="mapel">
+                        <ion-icon name="cube-outline" class="math-icon"></ion-icon>
+                        <p>Latihan 3<br><span>Logaritma</span></p>
+                        <ion-icon name="chevron-forward" class="next-icon"></ion-icon>
+                    </li>
+                    <li class="mapel">
+                        <ion-icon name="code-slash" class="dpdg-icon"></ion-icon>
+                        <p>Latihan 4.5<br><span>Tabel dalam HTML</span></p>
+                        <ion-icon name="chevron-forward" class="next-icon"></ion-icon>
+                    </li>
+                    <li class="mapel">
+                        <ion-icon name="cube-outline" class="math-icon"></ion-icon>
+                        <p>Latihan 3.2<br><span>Sifat-sifat Logaritma</span></p>
+                        <ion-icon name="chevron-forward" class="next-icon"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
